@@ -4,6 +4,8 @@
 
 #include <stdio.h>
 #include "GameEngine/Application.h"
+#include "GameEngine/Log.h"
+
 
 // ---Entry Point 入口点----------------------------
 #include "GameEngine/EntryPoint.h"
