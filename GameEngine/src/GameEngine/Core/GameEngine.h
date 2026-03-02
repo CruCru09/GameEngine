@@ -2,7 +2,7 @@
 
 // For use by GameEngine applications 供游戏引擎应用程序使用
 
-#include <stdio.h>
+#include "../Base.h"
 #include "Application.h"
 #include "Log.h"
 

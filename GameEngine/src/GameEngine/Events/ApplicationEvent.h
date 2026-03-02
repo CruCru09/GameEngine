@@ -1,8 +1,8 @@
 #pragma once
 
-#include "Event.h"
+#include "../Base.h"
 
-#include <sstream>
+#include "Event.h"
 
 namespace GameEngine {
 

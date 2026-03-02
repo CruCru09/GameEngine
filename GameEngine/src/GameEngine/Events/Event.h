@@ -1,9 +1,8 @@
 #pragma once
 
-#include "../Core/Core.h"
+#include "../Base.h"
 
-#include <string>
-#include <functional>
+#include "../Core/Core.h"
 
 namespace GameEngine {
 
