@@ -10,3 +10,11 @@ bin文件夹是输出文件夹，bin-int文件夹是编译过程中的文件(可
 ## 关于其他
 
 首先项目使用了第三方库SPDLOG作为日志系统，然后请注意SPD的编译是UTF-8，所以请注意GameEngine与SandBox项目属性的命令行 /UTF-8。
+
+但是在我们使用了premake构建后请注意premake5.lua文件确保 buildoptions { "/utf-8" } 在我们修改了lua里的文件请GenerateProjects.bat重新打包解决方案
+
+### 关于cmd提交
+
+>git commit -m "Commit"
+
+>git push origin main
